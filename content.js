@@ -15,7 +15,6 @@ window.PORTFOLIO_CONTENT = {
     hero: "dreem-portrait.png"
   },
   hero: {
-    eyebrow: "HI, I'M DREEM · MANILA, PH",
     headline: "Drowning in admin? <span class=\"highlight\">Hand it over.</span>",
     description: "I help busy professionals keep calendars, files, records, supplier details, and everyday workflows organized.",
     primaryCta: "Explore My Work",
@@ -40,11 +39,11 @@ window.PORTFOLIO_CONTENT = {
     title: "Tools that keep work moving.",
     intro: "A practical mix of workspace, planning, communication, and creative tools.",
     groups: [
-      { title: "Workspace & Docs", items: ["Notion", "Google Workspace", "Microsoft 365"] },
+      { title: "Workspace & Docs", items: ["Notion", "Google Workspace", "Microsoft Office"] },
       { title: "Project & Task Management", items: ["ClickUp", "Asana"] },
       { title: "Scheduling & Meetings", items: ["Calendly", "Zoom", "Google Meet", "Microsoft Teams"] },
       { title: "AI & Writing", items: ["ChatGPT", "Gemini", "Claude", "Grammarly"] },
-      { title: "Design & Content", items: ["Canva", "CapCut"] }
+      { title: "Design & Content", items: ["Canva", "CapCut", "Edits: Video Editor" ] }
     ]
   },
   vaTest: {
@@ -73,7 +72,6 @@ window.PORTFOLIO_CONTENT = {
         category: "NOTION · OPERATIONS",
         poster: "project-operations-hub.svg",
         previewUrl: "https://reflective-stone-056.notion.site/Pool-Sauna-Company-Operations-Hub-0b4803aa7f6f824790dc01c95d72931d",
-        projectUrl: "https://reflective-stone-056.notion.site/Pool-Sauna-Company-Operations-Hub-0b4803aa7f6f824790dc01c95d72931d?source=copy_link"
       },
       {
         title: "Brooks Creative Studio Business Calendar Hub",
@@ -81,7 +79,6 @@ window.PORTFOLIO_CONTENT = {
         category: "NOTION · CALENDAR",
         poster: "project-calendar-hub.svg",
         previewUrl: "https://reflective-stone-056.notion.site/Brooks-Creative-Studio-Business-Calendar-Hub-411803aa7f6f8012a8a3dae9a40e4525",
-        projectUrl: "https://reflective-stone-056.notion.site/Brooks-Creative-Studio-Business-Calendar-Hub-411803aa7f6f8012a8a3dae9a40e4525?source=copy_link"
       },
       {
         title: "Calendar Management",
@@ -89,7 +86,6 @@ window.PORTFOLIO_CONTENT = {
         category: "ADMINISTRATIVE SUPPORT",
         poster: "project-calendar.png",
         previewUrl: "Calendar_Mangement_by_Dreem-Sabiniano.pdf",
-        projectUrl: "Calendar_Mangement_by_Dreem-Sabiniano.pdf"
       },
       {
         title: "Document Management",
@@ -97,7 +93,6 @@ window.PORTFOLIO_CONTENT = {
         category: "ADMINISTRATIVE SYSTEMS",
         poster: "project-documents.png",
         previewUrl: "https://drive.google.com/drive/folders/19rv8vUfamtJbEbawh1s_5r4Wx_OXeoxm?usp=drive_link",
-        projectUrl: "https://drive.google.com/drive/folders/19rv8vUfamtJbEbawh1s_5r4Wx_OXeoxm?usp=drive_link"
       },
       {
         title: "Supplier Sourcing",
@@ -105,7 +100,6 @@ window.PORTFOLIO_CONTENT = {
         category: "PROCUREMENT SUPPORT",
         poster: "project-sourcing.png",
         previewUrl: "Supplier_Sourcing_by_Dreem-Sabiniano.pdf",
-        projectUrl: "Supplier_Sourcing_by_Dreem-Sabiniano.pdf"
       },
       {
         title: "Template Creation",
@@ -113,7 +107,6 @@ window.PORTFOLIO_CONTENT = {
         category: "ADMINISTRATIVE DOCUMENTATION",
         poster: "project-templates.png",
         previewUrl: "Template_Creation_by_Dreem-Sabiniano.pdf",
-        projectUrl: "Template_Creation_by_Dreem-Sabiniano.pdf",
         status: "Initial client task"
       }
     ]
