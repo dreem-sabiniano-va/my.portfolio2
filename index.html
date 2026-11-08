@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#FFFDF9">
+  <meta name="description" content="Dreem Sabiniano — Administrative & Operations VA providing thoughtful administrative, documentation, calendar, and procurement support.">
+  <meta property="og:title" content="Dreem Sabiniano | Administrative & Operations VA">
+  <meta property="og:description" content="Thoughtful administrative and operations support for busy professionals.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="dreem-portrait.png">
+  <title>Dreem Sabiniano | Administrative & Operations VA</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="content.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" id="top">
+    <div class="nav-wrap">
+      <a class="brand" href="#home" aria-label="Dreem Sabiniano home">Dreem <span>Sabiniano</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation"><span></span><span></span><span></span></button>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#tools" class="nav-link">Tools</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+      <a class="nav-book" data-link="calendly" href="[CALENDLY_LINK]" target="_blank" rel="noopener noreferrer">Book a Free Intro Call <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero section-anchor" id="home" aria-labelledby="hero-title">
+      <div class="hero-glow glow-one" aria-hidden="true"></div><div class="hero-glow glow-two" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow hero-eyebrow" data-hero="eyebrow">HI, I'M DREEM · MANILA, PH</p>
+          <h1 id="hero-title" data-hero="headline">Drowning in admin? <span class="highlight">Hand it over.</span></h1>
+          <p class="hero-description" data-hero="description"></p>
+          <div class="problem-chips" id="hero-problems" aria-label="Common admin challenges"></div>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects" data-hero="primaryCta">Explore My Work</a>
+            <a class="button button-outline" data-link="calendly" href="[CALENDLY_LINK]" target="_blank" rel="noopener noreferrer" data-hero="secondaryCta">Book a Free Intro Call</a>
+          </div>
+          <div class="availability"><span class="availability-dot" aria-hidden="true"></span><span data-availability></span><span class="availability-separator">·</span><span data-timezone></span></div>
+        </div>
+        <div class="hero-visual" id="hero-visual">
+          <span class="sparkle sparkle-a" aria-hidden="true">✦</span><span class="sparkle sparkle-b" aria-hidden="true">✧</span>
+          <div class="portrait-frame">
+            <img src="dreem-portrait.png" alt="Portrait of Dreem Sabiniano" fetchpriority="high">
+            <span class="portrait-caption">Hi! I'm Dreem <span aria-hidden="true">✿</span></span>
+          </div>
+          <div class="portrait-note">ADMINISTRATIVE &amp; OPERATIONS SUPPORT</div>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#services">SCROLL TO EXPLORE <span aria-hidden="true">↓</span></a>
+    </section>
+
+    <section class="section services-section section-anchor" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow" data-section="services.eyebrow"></p><h2 id="services-title" data-section="services.title"></h2><p data-section="services.intro"></p></div>
+        <div class="service-grid" id="service-grid"></div>
+      </div>
+    </section>
+
+    <section class="section tools-section section-anchor" id="tools" aria-labelledby="tools-title">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow" data-section="tools.eyebrow"></p><h2 id="tools-title" data-section="tools.title"></h2><p data-section="tools.intro"></p></div>
+        <div class="tools-grid" id="tools-grid"></div>
+      </div>
+      <div class="tools-marquee" aria-label="Tools used"><div class="marquee-track" id="tools-marquee"></div></div>
+    </section>
+
+    <section class="section va-test-section section-anchor" id="va-test" aria-labelledby="va-test-title">
+      <div class="container test-layout">
+        <div class="section-heading"><p class="eyebrow" data-section="vaTest.eyebrow"></p><h2 id="va-test-title" data-section="vaTest.title"></h2><p data-section="vaTest.intro"></p><p class="test-hint">Select any that sound familiar. You can change your answers anytime.</p></div>
+        <div class="test-card">
+          <div class="test-checklist" id="va-checklist"></div>
+          <aside class="test-result" aria-live="polite">
+            <span class="result-kicker">YOUR QUICK CHECK</span>
+            <strong class="result-count" id="result-count">0 <small>selected</small></strong>
+            <p id="result-message">Choose the tasks that are taking up your time.</p>
+            <div id="result-services" class="result-services"></div>
+            <div class="result-actions"><a class="button button-primary" id="test-email" href="#">Email my selected needs</a><button class="button button-text" id="reset-test" type="button">Reset answers</button></div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section section-anchor" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow" data-section="projects.eyebrow"></p><h2 id="projects-title" data-section="projects.title"></h2><p data-section="projects.intro"></p></div>
+        <div class="project-grid" id="project-grid"></div>
+      </div>
+    </section>
+
+    <section class="section how-section" id="how-i-work" aria-labelledby="how-title">
+      <div class="container">
+        <div class="section-heading centered"><p class="eyebrow" data-section="howIWork.eyebrow"></p><h2 id="how-title" data-section="howIWork.title"></h2></div>
+        <div class="steps-grid" id="steps-grid"></div>
+      </div>
+    </section>
+
+    <section class="quickfacts-section" aria-label="Quick facts">
+      <div class="container quickfacts-inner"><span class="quickfacts-label" data-section="quickFacts.title"></span><div id="quickfacts-list"></div></div>
+    </section>
+
+    <section class="section experience-section section-anchor" id="experience" aria-labelledby="experience-title">
+      <div class="container">
+        <div class="section-heading centered"><p class="eyebrow" data-section="experience.eyebrow"></p><h2 id="experience-title" data-section="experience.title"></h2></div>
+        <div class="timeline" id="timeline"></div>
+      </div>
+    </section>
+
+    <section class="section faq-section" id="faq" aria-labelledby="faq-title">
+      <div class="container faq-layout">
+        <div class="section-heading"><p class="eyebrow" data-section="faq.eyebrow"></p><h2 id="faq-title" data-section="faq.title"></h2></div>
+        <div class="faq-list" id="faq-list"></div>
+      </div>
+    </section>
+
+    <section class="section contact-section section-anchor" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-wrap">
+        <div class="contact-flower" aria-hidden="true">✿</div>
+        <div class="section-heading centered"><p class="eyebrow" data-section="contact.eyebrow"></p><h2 id="contact-title" data-section="contact.title"></h2><p data-section="contact.intro"></p></div>
+        <div class="contact-actions">
+          <a class="button button-primary" data-link="emailCompose" href="#" target="_blank" rel="noopener noreferrer" data-section="contact.cta">Send me an email</a>
+          <button class="button button-outline" id="copy-email" type="button">Copy email address</button>
+        </div>
+        <div class="contact-links">
+          <a data-link="linkedin" href="#" target="_blank" rel="noopener noreferrer">LinkedIn <span>↗</span></a>
+          <a data-link="onlinejobs" href="#" target="_blank" rel="noopener noreferrer">OnlineJobs.ph <span>↗</span></a>
+          <span data-email-text></span>
+        </div>
+        <p class="copy-feedback" id="copy-feedback" aria-live="polite"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><a class="footer-brand" href="#home">Dreem Sabiniano</a><p data-footer></p><a href="#top" class="footer-top">Back to top ↑</a></div></footer>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Dreem Sabiniano","jobTitle":"Administrative & Operations Virtual Assistant","email":"dreem.sabiniano.va@gmail.com","sameAs":["https://www.linkedin.com/in/dreem-sabiniano/","https://v2.onlinejobs.ph/jobseekers/info/5466710"]}</script>
+</body>
+</html>
