@@ -7,10 +7,10 @@ window.PORTFOLIO_CONTENT = {
     linkedin: "https://www.linkedin.com/in/dreem-sabiniano/",
     onlinejobs: "https://v2.onlinejobs.ph/jobseekers/info/5466710",
     emailCompose: "https://mail.google.com/mail/?view=cm&fs=1&to=dreem.sabiniano.va%40gmail.com",
-    calendly: "[CALENDLY_LINK]"
+    calendly: "https://calendly.com/dreem-sabiniano-va/30min"
   },
-  availability: "[AVAILABILITY]",
-  timezoneHours: "[TIMEZONE_HOURS]",
+  availability: "Monday to Friday",
+  timezoneHours: "9:00 PM to 2:00 AM",
   photos: {
     hero: "dreem-portrait.png"
   },
